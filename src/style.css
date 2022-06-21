@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    color: #2B283A;
+}
+header {
+    background-color: #F55A5A;
+    text-align: center;
+}
+hr {
+    margin: 30px;
+    background-color: #F5F5F5;
+    border: none;
+    height: 1px;
+}
+p, span, a {
+    font-size: 11px;
+}
+p {
+    line-height: 150%;
+}
+JournalEntry {
+    margin: 30px;
+}
+.heading {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    padding: 16px 8px;
+    color: #ffffff;
+    display: inline-block;
+}
+.journal-entry {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 40px;
+}
+.location-info {
+    margin-left: 20px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.location-image {
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    vertical-align: middle;
+}
+.location {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.date-range {
+    font-weight: 700;
+    padding: 8px 0;
+}
+.material-icons {
+    color: #F55A5A;
+    font-size: 14px;
+    vertical-align: middle;
+}
+.world-icon {
+    color: #ffffff;
+    font-size: 18px;
+    vertical-align: middle;
+}
+.google-maps-url {
+    color: #918E9B;
+    padding: 0 12px;
+}
+.title {
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 535px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    .journal-entry {
+        margin: 20px 10px;
+    }
+
+    .location-image {
+        width: 150px;
+        height: 150px;
+    }
+}
